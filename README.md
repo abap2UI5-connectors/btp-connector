@@ -7,6 +7,8 @@
 * **Service Integration:** Run abap2UI5 apps with SAP Build Workzone Launchpad & SAP Build Mobile Start<br>
 * **Broad System Compatibility:** Compatible with all ABAP Backend Systems (SAP NetWeaver version 7.02 or higher, S/4HANA On-Premise, S/4HANA Private Cloud, and S/4HANA Public Cloud)
 
+_Running into problems or found a bug? Create an issue [**here**](https://github.com/abap2UI5/abap2UI5/issues)_
+
 #### Installation
 ##### (1/2) Deploy the Application to SAP BTP: <br>
 Use Visual Studio Code e.g. for deployment:
