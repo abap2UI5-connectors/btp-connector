@@ -13,8 +13,9 @@ _Running into problems or found a bug? Create an issue [**here**](https://github
 ##### (1/2) Deploy the Application to SAP BTP: <br>
 Use Visual Studio Code e.g. for deployment:
 ```
-git clone
+git clone https://github.com/abap2UI5/abap2UI5-btp_proxy_app.git
 cf login
+npm i
 npm run build:mta
 npm run deploy
 ```
