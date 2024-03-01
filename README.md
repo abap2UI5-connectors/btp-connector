@@ -19,7 +19,7 @@ npm i
 npm run build:mta
 npm run deploy
 ```
-Or use the following archive:
+Or use directly **[this](https://github.com/abap2UI5/abap2UI5-btp_proxy_app/blob/main/zabap2ui5.mtar)** file for deployment.
 
 ##### (2/2) Set Up a Destination in SAP BTP: <br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/1a4880fd-aad7-4f40-9a45-9452205f9bff"> <br>
