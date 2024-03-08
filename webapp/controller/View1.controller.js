@@ -37,7 +37,8 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/BusyIndicator", "sap/u
 
             setAppStartParameter() {
                 try {
-                    sap.z2ui5.APP_START = this.getOwnerComponent().getComponentData().startupParameters.app_start[0];
+              //      sap.z2ui5.APP_START = this.getOwnerComponent().getComponentData().startupParameters.app_start[0];
+                      sap.z2ui5.ComponentData = this.getOwnerComponent().getComponentData();
                 } catch (e) {
                 }
             },
