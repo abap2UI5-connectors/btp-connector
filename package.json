@@ -12,7 +12,7 @@
     "dependencies": {},
     "devDependencies": {
         "@ui5/cli": "^3.7.3",
-        "@sap/ux-ui5-tooling": "1.11.5",
+        "@sap/ux-ui5-tooling": "1.13.2",
         "@sap-ux/ui5-middleware-fe-mockserver": "2.2.10",
         "@sap/ui5-builder-webide-extension": "^1.1.9",
         "ui5-task-zipper": "^3.1.0",
