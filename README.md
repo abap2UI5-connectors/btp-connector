@@ -2,14 +2,14 @@
 
 _Running into problems or found a bug? Create an issue [**here**](https://github.com/abap2UI5/abap2UI5/issues)_
 
-#### Key Features
+### Key Features
 * **UI5 Proxy App:** Deploy this UI5 App to your SAP BTP HTML5 Repository. It functions as a proxy, managing all communication with your backend system and running abap2UI5 apps on BTP<br>
 * **User-Friendly:** Launch different backend apps simply by adjusting the start parameter "app_start"<br>
 * **Framework Consistency:** The framework and all abap2UI5 apps can remain unchanged in your ABAP backend system<br>
 * **Service Integration:** Run abap2UI5 apps with SAP Build Workzone Launchpad & SAP Build Mobile Start<br>
 * **Broad System Compatibility:** Compatible with all ABAP Backend Systems (SAP NetWeaver version 7.02 or higher, S/4HANA On-Premise, S/4HANA Private Cloud, and S/4HANA Public Cloud)
 
-#### Integration Scenarios
+### Integration Scenarios
 
 ##### 1/3 - Connect your ABAP System to SAP BTP and access your abap2UI5 Apps from anywhere
 <img width="700" alt="image" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/110c0810-1a57-4a16-b8c2-c88d35be7002">
@@ -27,7 +27,7 @@ _Running into problems or found a bug? Create an issue [**here**](https://github
 <br>
 <img width="600" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/d8caa3cb-7bb0-4a96-bc32-086c6238e22f">
 
-#### Installation
+### Installation
 
 [(1) Deploy this app to SAP BTP](https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/ext-business_technology_platform/app_deployment.md) <br>
 [(2) Install the launchpad plugin to your ABAP system](https://github.com/abap2UI5/abap2UI5-plugin_fiori_launchpad) <br>
@@ -35,5 +35,5 @@ _Running into problems or found a bug? Create an issue [**here**](https://github
 [(4) Configure the SAP Build Workzone Launchpad](https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/ext-business_technology_platform/build_workzone_configuration.md) <br>
 [(5) (optional) Use SAP Mobile Start](https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/ext-business_technology_platform/mobile_start_configuration.md) <br>
 
-#### FAQ
+### FAQ
 * your comments, questions, wishes and bugs are welcome, please create an [**issue**](https://github.com/abap2UI5/ext-business_technology_platform/issues)
