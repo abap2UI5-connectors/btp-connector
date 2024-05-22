@@ -5,8 +5,9 @@ sap.ui.define(
     function(BaseController) {
       "use strict";
   
-      return BaseController.extend("zabap2ui5.controller.App", {
-
+      return BaseController.extend("z2ui5.controller.App", {
+        onInit: function() {
+        }
       });
     }
   );

@@ -14,7 +14,7 @@ sap.ui.define([
 			// start the app UI component
 			this.iStartMyUIComponent({
 				componentConfig: {
-					name: "zabap2ui5",
+					name: "z2ui5",
 					async: true
 				},
 				hash: oOptions.hash,

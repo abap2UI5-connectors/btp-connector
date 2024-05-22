@@ -1,33 +1,38 @@
 {
-  "_version": "1.57.0",
+  "_version": "1.59.0",
   "sap.app": {
-    "id": "zabap2ui5",
+    "id": "z2ui5",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
-      "version": "0.0.9"
+      "version": "0.0.1"
     },
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
-      "version": "1.11.5",
-      "toolsId": "8adc1451-1a5d-4d2f-899b-da571c774f67"
+      "version": "1.13.4",
+      "toolsId": "a070219c-3909-4907-a362-0940f2e748b6"
     },
     "dataSources": {
       "mainService": {
-        "uri": "/sap/",
+        "uri": "/sap/bc/z2UI5/",
         "type": "OData",
-        "settings": {  }
+        "settings": {
+          "annotations": [],
+          "localUri": "localService/metadata.xml",
+          "odataVersion": "2.0"
+        }
       }
     },
     "crossNavigation": {
       "inbounds": {
-        "zabap2ui5-zabap2ui5": {
-          "semanticObject": "zabap2ui5",
-          "action": "zabap2ui5",
+        "z2ui5-display": {
+          "semanticObject": "z2ui5",
+          "action": "display",
           "title": "{{flpTitle}}",
+          "subTitle": "{{flpSubtitle}}",
           "signature": {
             "parameters": {},
             "additionalParameters": "allowed"
@@ -55,7 +60,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.117.4",
+      "minUI5Version": "1.121.4",
       "libs": {
         "sap.m": {},
         "sap.ui.core": {},
@@ -75,7 +80,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "zabap2ui5.i18n.i18n"
+          "bundleName": "z2ui5.i18n.i18n"
         }
       },
       "": {
@@ -96,7 +101,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "zabap2ui5.view",
+        "viewPath": "z2ui5.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false
@@ -121,7 +126,7 @@
       }
     },
     "rootView": {
-      "viewName": "zabap2ui5.view.App",
+      "viewName": "z2ui5.view.App",
       "type": "XML",
       "async": true,
       "id": "App"
@@ -129,6 +134,6 @@
   },
   "sap.cloud": {
     "public": true,
-    "service": "zabap2ui5"
+    "service": "z2ui5"
   }
 }

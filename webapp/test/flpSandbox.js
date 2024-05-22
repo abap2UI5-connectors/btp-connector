@@ -40,7 +40,7 @@ sap.ui.define([
 								"tileType": "sap.ushell.ui.tile.StaticTile",
 								"properties": {
 									"title": "abap2UI5",
-									"targetURL": "#zabap2ui5-display"
+									"targetURL": "#z2ui5-display"
 								}
 							}]
 						}]
@@ -51,8 +51,8 @@ sap.ui.define([
 				"adapter": {
 					"config": {
 						"inbounds": {
-							"zabap2ui5-display": {
-								"semanticObject": "zabap2ui5",
+							"z2ui5-display": {
+								"semanticObject": "z2ui5",
 								"action": "display",
 								"description": "abap2UI5",
 								"title": "abap2UI5",
@@ -61,8 +61,8 @@ sap.ui.define([
 								},
 								"resolutionResult": {
 									"applicationType": "SAPUI5",
-									"additionalInformation": "SAPUI5.Component=zabap2ui5",
-									"url": sap.ui.require.toUrl("zabap2ui5")
+									"additionalInformation": "SAPUI5.Component=z2ui5",
+									"url": sap.ui.require.toUrl("z2ui5")
 								}
 							}
 						}

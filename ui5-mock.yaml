@@ -2,14 +2,14 @@
 
 specVersion: "3.1"
 metadata:
-  name: zabap2ui5
+  name: z2ui5
 type: application
 server:
   customMiddleware:
     - name: fiori-tools-proxy
       afterMiddleware: compression
       configuration:
-        ignoreCertError: true # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
+        ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
         ui5:
           path:
             - /resources
@@ -17,10 +17,21 @@ server:
           url: https://ui5.sap.com
         backend:
           - path: /sap
-            url: <<<system>>>/sap/z2ui5
+            url: <<<system>>>
+            destination: BACKEND_ABAP2UI5
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:
         port: 35729
         path: webapp
         delay: 300
+    - name: sap-fe-mockserver
+      beforeMiddleware: csp
+      configuration:
+        mountPath: /
+        services:
+          - urlPath: /sap/bc/z2ui5
+            metadataPath: ./webapp/localService/metadata.xml
+            mockdataPath: ./webapp/localService/data
+            generateMockData: true
+        annotations: []
