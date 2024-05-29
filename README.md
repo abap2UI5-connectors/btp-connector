@@ -3,7 +3,7 @@
 _Running into problems or found a bug? Create an issue [**here**](https://github.com/abap2UI5/abap2UI5/issues)_
 
 ### Key Features
-* **BTP Connector:** Host your abap2UI5 apps on SAP Build Workzone Launchpad & SAP Build Mobile Start<br>
+* **BTP Connector:** Host your abap2UI5 apps on SAP Build Workzone Launchpad & SAP Mobile Start<br>
 * **User-Friendly:** Launch different backend apps simply by adjusting the start parameter "app_start"<br>
 * **Project Consistency:** The framework and all abap2UI5 apps can remain unchanged in your ABAP system<br>
 * **Compatibility:** Runs with all ABAP Backend Systems (SAP NetWeaver version 7.02 or higher, S/4HANA On-Premise, S/4HANA Private Cloud, S/4HANA Public Cloud)
