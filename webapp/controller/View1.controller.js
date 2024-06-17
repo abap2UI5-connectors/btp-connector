@@ -9,7 +9,7 @@ function(Controller, BusyIndicator, XMLView, MessageBox) {
              try {                                                                                                                                                                                                                                             
                 if (sap.ushell.ui5service !== undefined) {   
                    try {                                                                                                                                                                                                                                      
-                       z2ui5.oLaunchpadService = await this.getOwnerComponent().getService("ShellUIService");                                                                                                                                            
+                       sap.z2ui5.oLaunchpadService = await this.getOwnerComponent().getService("ShellUIService");                                                                                                                                            
                     } catch (e) {}       
                     try {                                                                                                                                                                                                                                      
                         sap.z2ui5.startupParameters = this.getOwnerComponent().getComponentData().startupParameters;                                                                                                                                           
