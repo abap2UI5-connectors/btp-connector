@@ -28,9 +28,9 @@ _Running into problems or found a bug? Create an issue [**here**](https://github
 <img width="600" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/d8caa3cb-7bb0-4a96-bc32-086c6238e22f">
 
 ### Installation
-[1. Installation & Configuration of SAP BTP](https://www.linkedin.com/pulse/abap2ui5-integration-sap-business-technology-platform-13-installation-lf1re/?trackingId=YQ0y%2Fq0y6Kw5PK8chNCbrw%3D%3D&trk=article-ssr-frontend-pulse_little-text-block)
-[2. Setup SAP Build WorkZone](https://www.linkedin.com/pulse/abap2ui5-integration-sap-business-technology-platform-23-setup-ujdqe/?trackingId=vFwHvpI9oBk2igiz5P5CWA%3D%3D&trk=article-ssr-frontend-pulse_little-text-block)
-[3. Setup SAP Mobile Start](https://www.linkedin.com/pulse/abap2ui5-integration-sap-business-technology-platform-33-setup-uzure?trk=article-ssr-frontend-pulse_more-articles_related-content-card)
+[1. Installation & Configuration of SAP BTP](https://www.linkedin.com/pulse/abap2ui5-integration-sap-business-technology-platform-13-installation-lf1re/?trackingId=YQ0y%2Fq0y6Kw5PK8chNCbrw%3D%3D&trk=article-ssr-frontend-pulse_little-text-block)<br>
+[2. Setup SAP Build WorkZone](https://www.linkedin.com/pulse/abap2ui5-integration-sap-business-technology-platform-23-setup-ujdqe/?trackingId=vFwHvpI9oBk2igiz5P5CWA%3D%3D&trk=article-ssr-frontend-pulse_little-text-block)<br>
+[3. Setup SAP Mobile Start](https://www.linkedin.com/pulse/abap2ui5-integration-sap-business-technology-platform-33-setup-uzure?trk=article-ssr-frontend-pulse_more-articles_related-content-card)<br>
 
 ### FAQ
 * your comments, questions, wishes and bugs are welcome, please create an [**issue**](https://github.com/abap2UI5/ext-business_technology_platform/issues)
