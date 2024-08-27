@@ -1,6 +1,5 @@
-## abap2UI5 - SAP BTP Connector <img src="https://github.com/abap2UI5/abap2UI5/assets/102328295/52ac0bb6-a219-4e9d-9e4f-62698dab3063" width="30">
+## abap2UI5 - SAP BTP Connector
 
-_Running into problems or found a bug? Create an issue [**here**](https://github.com/abap2UI5/abap2UI5/issues)_
 
 ### Key Features
 * **BTP Connector:** Host your abap2UI5 apps on SAP Build Workzone Launchpad & SAP Mobile Start<br>
