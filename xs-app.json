@@ -6,7 +6,7 @@
       "source": "^/sap/(.*)$",
       "target": "/sap/$1",
       "destination": "BACKEND_ABAP2UI5",
-      "authenticationType": "xsuaa",
+      "authenticationType": "none",
       "csrfProtection": false
     },
     {
