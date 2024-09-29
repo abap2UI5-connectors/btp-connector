@@ -1,9 +1,8 @@
 {
-  "_version": "1.59.0",
+  "_version": "1.65.0",
   "sap.app": {
     "id": "z2ui5",
     "type": "application",
-    "i18n": "i18n/i18n.properties",
     "applicationVersion": {
       "version": "0.0.1"
     },
@@ -12,12 +11,12 @@
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
-      "version": "1.13.4",
-      "toolsId": "a070219c-3909-4907-a362-0940f2e748b6"
+      "version": "1.15.0",
+      "toolsId": "3a966e20-9635-4c28-8861-d1b66f79f1de"
     },
     "dataSources": {
       "mainService": {
-        "uri": "/sap/bc/z2UI5/",
+        "uri": "/sap/bc/z2UI5",
         "type": "OData",
         "settings": {
           "annotations": [],
@@ -32,7 +31,6 @@
           "semanticObject": "z2ui5",
           "action": "display",
           "title": "{{flpTitle}}",
-          "subTitle": "{{flpSubtitle}}",
           "signature": {
             "parameters": {},
             "additionalParameters": "allowed"
@@ -60,29 +58,22 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.121.4",
+      "minUI5Version": "1.128.1",
       "libs": {
         "sap.m": {},
-        "sap.ui.core": {},
-        "sap.f": {},
-        "sap.suite.ui.generic.template": {},
-        "sap.ui.comp": {},
-        "sap.ui.generic.app": {},
-        "sap.ui.table": {},
-        "sap.ushell": {}
+        "sap.ui.core": {}
       }
     },
     "contentDensities": {
       "compact": true,
       "cozy": true
     },
+    "services": {                                                                                                                                                                                                                                              
+      "ShellUIService": {                                                                                                                                                                                                                                      
+        "factoryName": "sap.ushell.ui5service.ShellUIService"                                                                                                                                                                                                  
+      }                                                                                                                                                                                                                                                        
+    },          
     "models": {
-      "i18n": {
-        "type": "sap.ui.model.resource.ResourceModel",
-        "settings": {
-          "bundleName": "z2ui5.i18n.i18n"
-        }
-      },
       "": {
         "dataSource": "mainService",
         "preload": true,
@@ -113,15 +104,29 @@
           "target": [
             "TargetView1"
           ]
+        },
+        {
+          "name": "RouteView2",
+          "pattern": ":?query:",
+          "target": [
+            "TargetView2"
+          ]
         }
       ],
       "targets": {
         "TargetView1": {
           "viewType": "XML",
-          "transition": "slide",
+          "transition": "flip",
           "clearControlAggregation": false,
           "viewId": "View1",
           "viewName": "View1"
+        },
+        "TargetView2": {
+          "viewType": "XML",
+          "transition": "flip",
+          "clearControlAggregation": false,
+          "viewId": "View2",
+          "viewName": "View2"
         }
       }
     },

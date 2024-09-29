@@ -45,8 +45,8 @@
             },
             applications: {
                 "z2ui5-display": {
-                    title: "abap2UI5",
-                    description: "abap2UI5",
+                    title: "App Title",
+                    description: "An SAP Fiori application.",
                     additionalInformation: "SAPUI5.Component=z2ui5",
                     applicationType: "URL",
                     url: "../"
@@ -59,14 +59,15 @@
     <!-- Bootstrap the UI5 core library. 'data-sap-ui-frameOptions="allow"'' is a NON-SECURE setting for test environments -->
     <script id="sap-ui-bootstrap"
         src="../resources/sap-ui-core.js"
-        data-sap-ui-libs="sap.m,sap.ui.core,sap.f,sap.suite.ui.generic.template,sap.ui.comp,sap.ui.generic.app,sap.ui.table,sap.ushell"
+        data-sap-ui-libs="sap.m,sap.ui.core,sap.ushell"
         data-sap-ui-async="true"
         data-sap-ui-preload="async"
         data-sap-ui-theme="sap_horizon"
         data-sap-ui-compatVersion="edge"
         data-sap-ui-language="en"
         data-sap-ui-resourceroots='{"z2ui5": "../"}'
-        data-sap-ui-frameOptions="allow">
+        data-sap-ui-frameOptions="allow"
+        data-sap-ui-flexibilityServices='[{"connector": "LocalStorageConnector"}]'>
     </script>
     <script id="locate-reuse-libs" src="./locate-reuse-libs.js" data-sap-ui-manifest-uri="../manifest.json">
     </script>
