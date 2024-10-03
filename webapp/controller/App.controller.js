@@ -6,7 +6,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
     onInit: async function () {
 
       z2ui5.oConfig.pathname = this.getView().getModel().sServiceUrl;
-      if (z2ui5.oConfig.pathname == '_LOCAL_') { 
+      if (z2ui5?.checkLocal == true ) { 
           z2ui5.oConfig.pathname = window.location.href; 
       };
       
@@ -643,9 +643,7 @@ sap.ui.define("z2ui5/MultiInputExt", ["sap/ui/core/Control", "sap/m/Token", "sap
       let table = z2ui5.oView.byId(this.getProperty("MultiInputId"));
       if (!table) {
         try {
-          //  table = sap.ui.getCore().byId(document.getElementsByName(this.getProperty("MultiInputName"))[0].id.replace('-inner', ''));
           table = Core.byId(Element.getElementsByName(this.getProperty("MultiInputName"))[0].id.replace('-inner', ''));
-
         } catch (e) {
           return;
         }
